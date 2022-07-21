@@ -1,0 +1,18 @@
+a.return {
+    font-size: 2.5rem;
+    color: rgb(blue, 0.1);
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    padding: 2px 5px 5px;
+    background-color: rgb(255, 255, 255, 0.8);
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 3px 0px lightskyblue;
+}
+a.return:hover {
+    background-color: rgb(205, 220, 220);
+    color: dodgerblue;
+}
