@@ -1,0 +1,88 @@
+#home{
+    align-items: center;
+    position: relative;
+    padding: 25px;
+}
+div.search{
+    visibility: hidden;
+    position: static;
+}
+div.login{
+    visibility: hidden;
+}
+div.search>form>p.responsive{
+    visibility: visible;
+    display: inline;
+    position: absolute;
+    top: 35px;
+    right: 80px;
+    background-color: aliceblue;
+    color: blue;
+    padding: 0;
+    margin: 0;
+    border-radius: 24px;
+}
+div.login i{
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background-color: aliceblue;
+    color: blue;
+    border-radius: 30px;
+    font-size: 1.5em;
+}
+footer{
+    padding: 40px;
+}
+footer .container{
+    flex-direction: column;
+    align-items:center;
+}
+footer .container .content{
+    margin-right: 0;
+    margin-bottom: 40px;
+}
+footer .container, .content.about, .content.links, .content.contactus, .content.help{
+    width: 100%;
+}
+@media screen and (max-width: 560px) {
+    #home{
+        padding: 15px;
+        position: relative;
+    }
+    div.title h1{
+        font-size: 2em;
+        position: absolute;
+        left: 70px;
+    }
+    div.logo img{
+        width: 50px;
+        height: 50px;
+    }
+    div.logo{
+        position: absolute;
+        top: 1em;
+        left: 0;
+    }
+    div.login i{
+        font-size: 1em;
+        position: absolute;
+        top:1.1em;
+        right: 0.4em;
+    }
+    div.search>form>p.responsive{
+        position: absolute;
+        font-size: 0.8em;
+        top: 0.8em;
+        right: 1.5em;
+    }
+    div.search>form>p.responsive>i{
+        padding: 7px;
+    }
+    div.nav{
+        font-size: .9em;
+        padding: 3px;
+        margin: 0;
+    }
+}

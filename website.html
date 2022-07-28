@@ -1,20 +1,124 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
-        <link href="travelwebsite.css" rel="stylesheet"/>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Vũng Tàu Travel</title>
+        <meta http-equiv="refresh" content="600">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='travelwebsite.css'>
+        <link rel='stylesheet' type='text/css' media='only screen and (max-width: 1050px)' href='responsive.css'>
+        <script src='travelwebsite.js'></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="https://i.pinimg.com/originals/4a/a5/34/4aa534605d1afc465c5bdc5dd80f1ecb.png"/>
+
     </head>
     <body>
-        <div id="home">
-            <header>
-
-            </header>
+        <header >
+            <div id="home" class="flex">
+                <div class="logo inline"><img src="img/logo.png" alt="logo"></div>
+                <div class="title inline"><h1 title="Vũng Tàu Travel" class="inline">Vung Tau Travel</h1></div>
+                <div class="login inline">
+                    <div class="inline"><a title="Đăng ký"; href="">Đăng ký</a></div>
+                    <pre style="font-size:1.2em;" class="inline"> / </pre>
+                    <div class="inline"><a title="Đăng nhập"; href="">Đăng nhập<i class="fa-solid fa-user"></i></a></div>
+                </div>
+                <div class="search inline">
+                    <form>
+                        <input aria-expanded="false" title="Nhập" type="search" placeholder="Nhập nơi muốn đến..."/>
+                        <button title="Tìm" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <p  class="responsive"><i class="fa-solid fa-magnifying-glass"></i></p>
+                    </form>
+                </div>
+            </div> 
+        </header>
+        <section class="header-menu">
+            <div class="menu sticky">
+                <nav class="flex">
+                    <div role="button" aria-label="Hamburger Menu" class="menu-button flex"><image src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/8/8c5c07f3e6c8c7806ef853f5e943e27b.svg"/></div>
+                    <ul class="nav flex">
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Tour du lịch</a></li>
+                        <li><a href="#">Khách sạn</a></li>
+                        <li><a href="#">Thuê xe</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <div class="mainMenu">
+            <div class="background"></div>
+            <div class="hamburger">
+                <button class="closeMenu"><i class="fa-solid fa-xmark"></i></button>
+                <div class="options">
+                    <ul>
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Đơn đặt hàng của tôi</a></li>
+                        <li><a href="">Hộp thư của tôi</a></li>
+                        <li><a href="">Đã lưu</a></li>
+                        <li><a href="">Liên lạc với chúng tôi</a></li>
+                        <li><a href="">Trung tâm trợ giúp</a></li>
+                        <li><a href="">Trở thành đối tác với chúng tôi</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div>
-            <footer>
-                
-            </footer>
-        </div>
-        <div><a title="Trở về đầu trang" class="return" href="#home">^</a></div>
+        <!--home section start-->
+        <section class="home" id="home">
+            <div class="control">
+                <div class="home-pictures"><img src="img/image.jpg" alt="homepic"></div>
+            </div>
+            <div class="home-content">
+                <h3>Du Lịch mọi lúc ,mọi nơi</h3>
+                <p>Cùng đến với Vũng Tàu Travel, khám phá thế giới<p>
+                <a href="#" class="home-discover">Khám phá thêm</a>
+            </div>
+        </section>
+        <!--home section end-->
+        <footer class="flex">
+            <div class="container flex">
+                <div class="content contactus">
+                    <h3>Liên hệ</h3>
+                    <ul>
+                        <li>CÔNG TY THƯƠNG MẠI DU LỊCH VŨNG TÀU TRAVEL</li>
+                        <li>Trụ sở: 371 Nguyễn Kiệm, phường 3, quận Gò vấp, TP.HCM</li>
+                        <li>Tổng đài tư vấn mua hàng: <b>19003851</b></li>
+                        <li>Tổng đài dịch vụ vận chuyển: <b>19005341</b></li>
+                        <li>Email: <a href="mailto:2151053007cuong@gmail.com">2151053007cuong@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="content about">
+                    <h3>Theo dõi chúng tôi trên</h3>
+                    <ul class="social-icon">
+                        <li><a href=""><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube"></i>Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="content links">
+                    <h3>Đường Dẫn</h3>
+                    <ul class="link">
+                        <li><a href="">Trang Chủ</a></li>
+                        <li><a href="">Về Chúng Tôi</a></li>
+                        <li><a href="">Thông Tin Liên Lạc</a></li>
+                        <li><a href="">Dịch Vụ</a></li>
+                        <li><a href="">Điều Kiện Chính Sách</a></li>
+                    </ul>                    
+                </div>
+                <div class="content help">
+                    <h3>Trợ giúp</h3>
+                    <ul class="link">
+                        <li><a href="">Trung tâm trợ giúp</a></li>
+                        <li><a href="">Hình thức thanh toán</a></li>
+                        <li><a href="">Hướng dẫn đăng nhập</a></li>
+                        <li><a href="">Quy định sử dụng </a></li>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>                    
+                </div>
+            </div>
+        </footer>
+        <div><a title="Trở về đầu trang" id="return" href="#home">^</a></div>
+        
     </body>
 </html>
